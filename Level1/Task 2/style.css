@@ -1,0 +1,245 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(73, 159, 230);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.logo {
+  margin-left: 5%;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 24px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  color: pink;
+}
+
+/*first-section*/
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 130px 0;
+  align-items: center;
+}
+
+.firstsection>div {
+  width: 30%
+}
+
+.leftsection {
+  font-size: 30px;
+}
+
+.right img {
+  width: 80%;
+  height: 80%;
+  margin: 10px 40;
+}
+
+.sourabh img {
+  width: 35%;
+  height: 400px;
+  margin-left: 400px;
+}
+
+.purple {
+  color: rgb(1, 5, 9);
+}
+
+.text-gray {
+  color: gray;
+}
+
+/* Sections */
+.about-section,
+.projects-section,
+.contact-section,
+.skill-section,
+.resume-section {
+  padding: 64px 0;
+  text-align: left;
+  font-size: 25px;
+}
+
+/*skill*/
+
+.skill {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #35424a;
+  color: white;
+  text-align: center;
+  padding: 16px 0;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: gray;
+  color: darkviolet
+}
+
+.section {
+  color: black;
+}
+
+
+/* Projects */
+.project {
+  background-color: gray;
+  padding: 16px;
+  margin-bottom: 32px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Resume*/
+.title {
+  font-size: 34px;
+  margin-bottom: 16px;
+  color: black;
+}
+
+.details {
+  font-size: 25;
+  margin-bottom: 4px;
+  color: darkgreen;
+}
+
+.point {
+  color: darkgreen;
+}
+
+.resume-download {
+  background-color: gray;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 16px 32px;
+  background-color: silver;
+  color:
+    text-decoration: none;
+  border-radius: 2px;
+  font-size: 30px;
+}
+
+/* Contact */
+
+.contact-details {
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+
+.section-title {
+  font-size: 30px;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+.contact-item {
+  margin-bottom: 1rem;
+}
+
+.item-title {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  color: brown;
+}
+
+.item-details {
+  margin-left: 1rem;
+  color: darkgray;
+}
+
+form {
+  display: grid;
+  grid-gap: 16px;
+}
+
+input,
+textarea {
+  width: 80%;
+  padding: 8px;
+}
+
+button {
+  background-color: #35424a;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+p {
+  color: darkgreen;
+}
+
+h2 {
+  color: black;
+}
+
+/* Footer */
+footer {
+  background-color: #35424a;
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+}
